@@ -1,0 +1,77 @@
+:root{
+    --background-color-1:#f0f2f5;
+    --background-color-2:#ffffff;
+    --text-color-1:#050505;
+    --text-color-2:#666666;
+    --text-color-3:#385898;
+    --text-color-4:#737579;
+    --text-color-5:#ebf3fd;
+    --text-color-6:#838589;
+    --color-1:#1b74e4;
+    --color-2:#e41e3f;
+    --color-3:#65676b;
+    --color-4:#31a24c;
+    --color-5:#050505;
+    --color-6:#e4e6eb;
+}
+
+/* responsive */
+.header,.content{
+    padding: 0 16px;
+}
+
+*{
+    box-sizing: inherit;        /*kế thừa box-sizing: boder-bõ*/
+}
+
+body, input, button, option, textarea, label, select, legend, h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    /* font: 14px/18px Arial,Helvetica,sans-serif; */
+    color: #333;
+    outline: none;
+}
+html{
+    /* 10px */
+    /* 1rem  = 10px */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;         /* = boder+padding */
+}
+body{
+    background-color: var(--background-color);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+p{
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+button:focus{
+    outline: none;
+    border: none;
+}
+
+/* animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeScale{
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+
+    }
+}
