@@ -460,7 +460,7 @@ span,.header_between_item_notes-group span,.header_between_item_notes-play span{
     position: absolute;
     top: 10px;
     left: 10px;
-    z-index: 5;
+    z-index: 3;
 }
 
 .content_story_link_button-add{
