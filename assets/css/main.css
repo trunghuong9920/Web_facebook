@@ -241,6 +241,9 @@ span,.header_between_item_notes-group span,.header_between_item_notes-play span{
     padding: 0;
     list-style: none;
 }
+.content_left-top-show{
+    margin-left: -6px;
+}
 .content_left-top-link{
     display: flex;
     align-items: center;
